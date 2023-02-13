@@ -10,7 +10,7 @@ class returnjs {
               {
                 "opcode":"pi",
                 "blockType": "reporter",
-                "text":"pi"
+                "text":"pi",
                 "arguments":{}
               }
             ]
