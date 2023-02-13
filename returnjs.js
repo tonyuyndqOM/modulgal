@@ -1,25 +1,28 @@
-class returnjs {
-    constructor() {
-    }
+(function (Scratch){
+    'use strict';
+    class returnjs {
+        constructor() {
+        }
     
-    getInfo() {
-        return {
-            "id": "returnjs",
-            "name": "returnjs",
-            "blocks": [
-              {
-                "opcode":"pi",
-                "blockType": "reporter",
-                "text":"pi",
-                "arguments":{}
-              }
-            ]
-        };
+        getInfo() {
+            return {
+                "id": "returnjs",
+                "name": "returnjs",
+                "blocks": [
+                    {
+                        "opcode":"pi",
+                        "blockType": "reporter",
+                        "text":"pi",
+                        "arguments":{}
+                    }
+                ]
+            };
+        }
+
+        pi(){
+            return(Math.PI);
+        }
     }
 
-    pi(){
-      return(Math.PI)
-    }
-}
-
-Scratch.extensions.register(new returnjs())
+    Scratch.extensions.register(new returnjs());
+})(Scratch);
