@@ -8,9 +8,6 @@
             return {
                 "id": "returnjs",
                 "name": "returnjs",
-                "color1": "#aa1111",
-                "color2": "#aa1111",
-                "color3": "#aa1111",
                 "blocks": [
                     {
                         "opcode":"pi",
