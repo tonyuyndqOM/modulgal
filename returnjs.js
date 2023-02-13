@@ -42,8 +42,8 @@
         e(){
             return Math.E;
         }
-        evaluate({value}){
-            return eval(value);
+        evaluate(args){
+            return eval(args.value);
         }
     }
 
