@@ -57,7 +57,7 @@
                     {
                         "opcode":"mixedfr",
                         "blockType":"reporter",
-                        "text":"mixed fraction [WHOLE],[NUM] over [DEN]"
+                        "text":"mixed fraction [WHOLE],[NUM] over [DEN]",
                         "arguments":{
                             "WHOLE":{
                                 "type":"number",
