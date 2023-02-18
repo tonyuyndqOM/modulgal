@@ -10,6 +10,7 @@
                 color2: "#5f3000",
                 "id": "returnjs",
                 "name": "returnjs",
+                "description":"a very normal extension",
                 "blocks": [
                     {
                         "opcode":"pi",
