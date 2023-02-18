@@ -27,10 +27,21 @@
                         "arguments":{}
                     },
                     {
-                        "opcode":"x",
+                        "opcode":"getx",
                         "blockType": "reporter",
                         "text":"x",
                         "arguments":{}
+                    },
+                    {
+                        "opcode":"set",
+                        "blockType": "command",
+                        "text":"set x to [VAL]",
+                        "arguments":{
+                            "VAL":{
+                                "type":"number",
+                                "defaultvalue": "20"
+                            }
+                        }
                     },
                     {
                         "opcode":"evaluate",
@@ -39,7 +50,26 @@
                         "arguments":{
                             "VAL":{
                                 "type":"string",
-                                "defaultvalue": "9\+9"
+                                "defaultvalue": ""
+                            }
+                        }
+                    },
+                    {
+                        "opcode":"mixedfr",
+                        "blockType":"reporter",
+                        "text":"mixed fraction [WHOLE],[NUM] over [DEN]"
+                        "arguments":{
+                            "WHOLE":{
+                                "type":"number",
+                                "defaultvalue": "1"
+                            }
+                            "NUM":{
+                                "type":"number",
+                                "defaultvalue": "3"
+                            }
+                            "DEN":{
+                                "type":"number",
+                                "defaultvalue": "4"
                             }
                         }
                     }
@@ -53,11 +83,17 @@
         e(){
             return Math.E;
         }
-        x(){
+        getx(){
             return x;
+        }
+        set(args){
+            x = args.VAL;
         }
         evaluate(args){
             return eval(args.VAL);
+        }
+        mixedfr(args){
+            return args.WHOLE + args.NUM / args.DEN;
         }
     }
 
