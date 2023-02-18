@@ -62,11 +62,11 @@
                             "WHOLE":{
                                 "type":"number",
                                 "defaultvalue": "1"
-                            }
+                            },
                             "NUM":{
                                 "type":"number",
                                 "defaultvalue": "3"
-                            }
+                            },
                             "DEN":{
                                 "type":"number",
                                 "defaultvalue": "4"
