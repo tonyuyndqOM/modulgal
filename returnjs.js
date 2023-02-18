@@ -1,6 +1,6 @@
 (function (Scratch){
     'use strict';
-    x = 0;
+    var x = 0;
     
     class returnjs {
         constructor() {
