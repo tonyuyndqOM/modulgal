@@ -39,7 +39,7 @@
                         "arguments":{
                             "VAL":{
                                 "type":"string",
-                                "defaultvalue": "10"
+                                "defaultvalue": "9\+9"
                             }
                         }
                     }
