@@ -31,7 +31,7 @@
                         "blockType": "reporter",
                         "text":"x",
                         "arguments":{}
-                    }
+                    },
                     {
                         "opcode":"evaluate",
                         "blockType": "reporter",
