@@ -6,6 +6,8 @@
     
         getInfo() {
             return {
+                color1: "#773c00",
+                color2: "#5f3000",
                 "id": "returnjs",
                 "name": "returnjs",
                 "blocks": [
@@ -20,13 +22,13 @@
                         "blockType": "reporter",
                         "text":"e",
                         "arguments":{}
-                    }
+                    },
                     {
                         "opcode":"evaluate",
                         "blockType": "reporter",
                         "text":"evaluate [VAL]",
                         "arguments":{
-                            "value":{
+                            "VAL":{
                                 "type":"string",
                                 "defaultvalue": "5+5"
                             }
