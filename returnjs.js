@@ -24,7 +24,7 @@
                     {
                         "opcode":"evaluate",
                         "blockType": "reporter",
-                        "text":"evaluate [value]",
+                        "text":"evaluate [VAL]",
                         "arguments":{
                             "value":{
                                 "type":"string",
@@ -43,7 +43,7 @@
             return Math.E;
         }
         evaluate(args){
-            return eval(args.value);
+            return eval(args.VAL);
         }
     }
 
