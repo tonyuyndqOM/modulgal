@@ -39,7 +39,7 @@
                         "arguments":{
                             "VAL":{
                                 "type":"number",
-                                "defaultvalue": "20"
+                                "defaultValue": "20"
                             }
                         }
                     },
@@ -50,7 +50,7 @@
                         "arguments":{
                             "VAL":{
                                 "type":"string",
-                                "defaultvalue": ""
+                                "defaultValue": "5+5"
                             }
                         }
                     },
@@ -61,15 +61,15 @@
                         "arguments":{
                             "WHOLE":{
                                 "type":"number",
-                                "defaultvalue": "1"
+                                "defaultValue": "1"
                             },
                             "NUM":{
                                 "type":"number",
-                                "defaultvalue": "3"
+                                "defaultValue": "3"
                             },
                             "DEN":{
                                 "type":"number",
-                                "defaultvalue": "4"
+                                "defaultValue": "4"
                             }
                         }
                     }
