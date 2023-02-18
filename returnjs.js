@@ -57,7 +57,7 @@
             return Math.E;
         }
         flip(args){
-            return 0-args.VAL;
+            return 0 - args.VAL;
         evaluate(args){
             return eval(args.VAL);
         }
