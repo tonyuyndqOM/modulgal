@@ -1,5 +1,7 @@
 (function (Scratch){
     'use strict';
+    x = 0;
+    
     class returnjs {
         constructor() {
         }
@@ -25,16 +27,11 @@
                         "arguments":{}
                     },
                     {
-                        "opcode":"flip",
+                        "opcode":"x",
                         "blockType": "reporter",
-                        "text":"flip sign of [VAL]",
-                        "arguments":{
-                            "VAL":{
-                                "type":"number",
-                                "defaultvalue": "10"
-                            }
-                        }
-                    },
+                        "text":"x",
+                        "arguments":{}
+                    }
                     {
                         "opcode":"evaluate",
                         "blockType": "reporter",
@@ -56,8 +53,9 @@
         e(){
             return Math.E;
         }
-        flip(args){
-            return 0 - args.VAL;
+        x(){
+            return x;
+        }
         evaluate(args){
             return eval(args.VAL);
         }
