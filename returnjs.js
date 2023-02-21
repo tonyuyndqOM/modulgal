@@ -117,3 +117,4 @@
 
     Scratch.extensions.register(new returnjs());
 })(Scratch);
+/**/
