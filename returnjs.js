@@ -86,6 +86,7 @@
                                 "type":"number",
                                 "defaultValue": "3"
                             }
+                        }
                     }
                 ]
             };
