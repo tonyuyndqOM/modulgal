@@ -72,6 +72,20 @@
                                 "defaultValue": "4"
                             }
                         }
+                    },
+                    {
+                        "opcode":"power",
+                        "blockType":"reporter",
+                        "text":"[F]^[S]",
+                        "arguments":{
+                            "F":{
+                                "type":"number",
+                                "defaultValue": "2"
+                            },
+                            "S":{
+                                "type":"number",
+                                "defaultValue": "3"
+                            }
                     }
                 ]
             };
@@ -94,6 +108,9 @@
         }
         mixedfr(args){
             return args.WHOLE + args.NUM / args.DEN;
+        }
+        power(args){
+            return args.F ** args.S;
         }
     }
 
