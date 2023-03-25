@@ -14,7 +14,7 @@
                 "blocks": [
                   {
                         "opcode":"run",
-                        "blockType":"stack",
+                        "blockType":"command",
                         "text":"run command [C] in javascript",
                         "arguments":{
                             "C":{
